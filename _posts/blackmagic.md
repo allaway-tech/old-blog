@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Controlling Blackmagic Design Smart Videohubs from QLab
 date: 2022-06-9
 categories: [qlab, blackmagic]
