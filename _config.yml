@@ -13,15 +13,15 @@ baseurl: ''
 lang: en
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
+prefer_datetime_locale: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/London
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: blog.allaway.tech                          # the main title
 
 tagline: A text-focused Jekyll theme   # it will display as the sub-title
 
@@ -32,10 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: github_username             # change to your github username
-
-twitter:
-  username: twitter_username            # change to your twitter username
+  username: harmanhobbit             # change to your github username
 
 social:
   # Change to your full name.
@@ -73,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
