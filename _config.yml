@@ -23,7 +23,7 @@ timezone: Europe/London
 
 title: blog.allaway.tech                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: The musings and rabbit holes of a digital media tech.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -37,8 +37,8 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: blog.allaway.tech
+  email: blog@allaway.tech             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
