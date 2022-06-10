@@ -6,7 +6,7 @@ order: 4
 
 Hi and Welcome to my blog.
 
-I am a West End tech with a bias towards sound who enjoys tinkering with electronics and coding/scripting in my free time. Currently I fall into the sysadmin/dev-ops categories and seld-host some of the tools we use both at work and at home.
+I am a West End tech with a bias towards sound who enjoys tinkering with electronics and coding/scripting in my free time. Currently I fall into the sysadmin/dev-ops categories and self-host some of the tools we use both at work and at home.
 
 Things that I am planning to be posting about:
 - Digital audio
