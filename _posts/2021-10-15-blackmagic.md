@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Controlling Blackmagic Design Smart Videohubs from QLab
-date: 2022-06-9
+date: 2021-10-15
 categories: [qlab, blackmagic]
 tags: [qlab,blackmagic,python,applescript]
 ---
