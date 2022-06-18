@@ -2,6 +2,8 @@
 layout: post
 title: Getting more analytics for a free Cloudflare account
 date: 2021-08-13
+redirect_from:
+  - /2021/08/13/getting-more-analytic-data-from-a-free-cloudflare-account/
 categories: [Cloudflare, Analytics]
 tags: [cloudflare,analytics,free]
 ---
