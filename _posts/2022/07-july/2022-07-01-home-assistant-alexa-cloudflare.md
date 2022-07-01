@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Home Assistant Alexa smart home integration over Cloudflare
-date: 2022-06-29
+date: 2022-07-01
 categories: [Home Assistant, Cloudflare] # Can be anything
 tags: [hass,homeassistant,cloudflare,firewall] # Must be lowercase
 img_path: /media/posts/images/2022-07-01-cloudflare-hass
@@ -41,8 +41,15 @@ This, after all of my previous WAF fun, surprisingly worked.
 ## Combining the WAF rules
 Unfortunately, I was now using 4 out of my 5 free WAF rules on my Cloudflare account so the next problem became combining the rules all into one. There seems to be a slight bug in the Cloudflare WAF rules that the following very simple block rule:
 ```
-(ip.geoip.country ne "GB") or (ip.geoip.country ne "IE")
+(ip.geoip.country ne "GB") 
+
+or 
+
+(ip.geoip.country ne "IE")
 ```
+>N.B. This should be one continuous line but I have broken it up in an attempt to make it easier to read.
+{: .prompt-warning }
+
 Just blocks everything as GB is not IE and IE is not GB. Not the most useful. Luckily if you start building more complex rules this flaw doesn't seem to hold up. That means we can use something like the following:
 
 
