@@ -23,7 +23,7 @@ Downloading the script from [GitHub](https://github.com/harmanhobbit/smarthubctl
 
 All methods of use require the placeholder to be changed for the IP address of the Smart Videohub unit. For example, the line 
 
-![test](/media/posts/images/ip_address.PNG)
+![test](/media/posts/images/ip_address.png)
 
 should read something like `address = "192.168.1.100"`.
 
