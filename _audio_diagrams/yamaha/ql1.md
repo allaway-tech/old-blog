@@ -9,6 +9,6 @@ xml: <!-- Yamaha QL1 --> {"xml":"5Ztfb9owFMU/TV6nOCFAXwsdqrSuTDxMe/TAJdFCjFIzYJ9
 ---
 This is a QL1
 
-``` XML
+```
 This is an XML codeblock
 ```
