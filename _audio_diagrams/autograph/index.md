@@ -13,6 +13,7 @@ description: The Apple mac mini
 {% assign sorted-diagrams = site.audio_diagrams | where: "manufacturer","Autograph" %}
 {% for audio_diagram in sorted-diagrams %}
   {% if audio_diagram.class != "Manufacturer" %}
+  <hr />
   <h2>
     <a href="{{ audio_diagram.url }}">
       {{ audio_diagram.title }} - {{ audio_diagram.class }}
