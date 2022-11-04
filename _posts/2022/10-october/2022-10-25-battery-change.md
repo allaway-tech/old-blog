@@ -2,7 +2,7 @@
 layout: post
 title: How to change some batteries in under 10s
 date: 2022-10-25
-categories: [Theatre sound, Sound No. 20] # Can be anything
+categories: [Theatre sound, Sound No. 2] # Can be anything
 tags: [sound,rf,communication,anecdote] # Must be lowercase
 ---
 
