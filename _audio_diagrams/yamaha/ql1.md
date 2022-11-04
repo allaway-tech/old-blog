@@ -7,11 +7,3 @@ picture: https://media.allaway.tech/blog/media/audio_diagrams/yamaha/ql1.jpg # 2
 description: Yamaha 32 mono + 8 stereo channel digital mixing console 
 xml: <!-- Yamaha QL1 --> {"xml":"5Ztfb9owFMU/TV6nOCFAXwsdqrSuTDxMe/TAJdFCjFIzYJ9+DnFI22uvSM296VwJqsR/QvzrUY6PkwTxZHOYlXyb3smVyIP4JognpZSq3tocJiLPgyjMVkE8DaIo1N8g+uyoZafacMtLUahLOkR1h98834m6pC54VMfcFKxLuduaZqJU4vDsp5ayKMRS8Z9N8xCewqmp+f2ZkBuhyqNuss9WKjUtmm6pyNap6TYamkL+aM7k3Lcdkd4wg7IPMH59gHp8xUpU7cMgvt6nmRKLLV9WtXv9j9Flqdro40+Z3nyQhVpkf6pKVu07wTwFEPUIYAAA3BbbndJFIesWBc+zdaF3cvGgB3C9lVmhTieeXOuPHsok/JRUf8/fZFp93gbxaGoNqidMEwvSqAOiCSD6g294ynXZty8dM30O8a2sXhNcF3SGbr2NPdIbG9IJbuRGOvIJ6YAO6diNdOgTUsLL4pUbaeIT0pAOKQvdTAceMR0TImVupLFHSAnticEQcUba8Wy7V6SE9sRgbGmQMp/8KSb0J+ZOQswng4opDQpmoTNTnwyK1KHcCYr55FCkFuWOUI17+cGU0qPcGYp5tbJE6VHuENVkAT+YEnpUcwzb9PTKI6aM0KMimKLudwp3ma+sh/AmVKZD4zz/WMsbYpGDYaklh7Sah0jO4jdo5GAmaskhhSJEchZXQSMHk09LDin6IJKzeAcaOZhvWnJIAQePnMUg0MDBENOCQ0oxeOAo/QEmlRYcUlTBA0dpDzCOtOCQ8ggeOEp3gJljmq0zxatGsuL3v6GjYxfDbDHlhRK6aF5mG26O1jm9pUYjyosjRjTRdQx52dFykUR7yCCG+aPhvhBLWaw+FHmLr+ORh/nlq1B7Wf76MLwHlgsMHm+Yer7LcqVLJrlcIkHv5/Ya4WQhhokIn2pjeS+wYqnVMSOjpAzT093t9NYnzVpML8aiCSMVHs1+tHr1QquUdGHums01XK8ekh1YZgoDLKAwj83m93hA+1Hs+IViKQHD3FYrFmmVoBfFJpa5FhbQ5rhAscjLLr0qlhQwTG21Yn16/CaxmBYaUBjGasUiL+r3q1hKwDB91Yr16eGmxBIJ0IDC4FUrFvlmSr+KpQQMM1etWJ8eHUssy+NoQGHsqhWLfBerX8VSAobJa5FL1X1SeD8riMNLVxA7eQEUBjHDt+N57Tvie+m9iE74whw2l3tRenS9HeEZmN5t33Y/1T17Gf4v","w":120,"h":760,"aspect":"fixed","title":"Yamaha QL1"},
 ---
-This is a QL1
-
-```xml
-XML code block in the middle
-```
-</code>
-
-# H1
