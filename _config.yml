@@ -134,6 +134,8 @@ collections:
   tabs:
     output: true
     sort_by: order
+  audio_diagrams:
+    output: true
 
 defaults:
   - scope:

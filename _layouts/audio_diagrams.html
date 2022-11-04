@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="audio_diagram">
+  <h1>{{ page.title }}</h1>
+
+  <div class="audio_diagram-class {{ page.class | downcase }}">
+    {{ page.class }}
+  </div>
+
+  <div class="audio_diagram-class {{ page.description | downcase }}">
+    {{ page.description }}
+  </div>
+
+  <div class="audio_diagram-class {{ page.picture | downcase }}">
+    <img src="{{ page.picture }}" alt="Preview of {{ page.title | downcase }} system block diagram">
+  </div>
+    
+  <div>
+    {{ content }}
+  </div>
+
+</article>
