@@ -13,9 +13,8 @@ order: 1
 {% for audio_diagram in sorted-diagrams %}
   <hr />
   <h2>
-  <img src="{{ audio_diagram.picture }}" alt="Preview of {{ audio_diagram.title | downcase }} system block diagram">
     <a href="{{ audio_diagram.url }}">
-      {{ audio_diagram.title }} - {{ audio_diagram.class }}
+      <img src="{{ audio_diagram.picture }}" alt="Preview of {{ audio_diagram.title | downcase }} system block diagram"> {{ audio_diagram.title }}
     </a>
   </h2>
 {% endfor %}

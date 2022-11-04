@@ -1,15 +1,15 @@
 ---
 layout: default # You can ommit this if you've set it as a default
-title: Apple
-manufacturer: Apple
+title: Shure
+manufacturer: Shure
 class: Manufacturer
-picture: https://media.allaway.tech/blog/media/audio_diagrams/apple/apple_logo.png # 200 x 110
+picture: https://media.allaway.tech/blog/media/audio_diagrams/shure/shure_logo.png # 200 x 110
 ---
 
 <br />
 <br />
-# Apple products
-{% assign sorted-diagrams = site.audio_diagrams | where: "manufacturer","Apple" %}
+# Shure products
+{% assign sorted-diagrams = site.audio_diagrams | where: "manufacturer","Shure" %}
 {% for audio_diagram in sorted-diagrams %}
   {% if audio_diagram.class != "Manufacturer" %}
   <hr />
