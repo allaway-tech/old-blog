@@ -9,7 +9,7 @@ xml: <!-- Yamaha QL1 --> {"xml":"5Ztfb9owFMU/TV6nOCFAXwsdqrSuTDxMe/TAJdFCjFIzYJ9
 ---
 This is a QL1
 
-``` xml
+``` html
 XML code block in the middle
 ```
 
