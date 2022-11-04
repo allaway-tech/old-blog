@@ -12,6 +12,6 @@ This is a QL1
 ```xml
 XML code block in the middle
 ```
-
+</code>
 
 # H1
