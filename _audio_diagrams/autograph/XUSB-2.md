@@ -1,0 +1,9 @@
+---
+layout: audio_diagrams # You can ommit this if you've set it as a default
+title: XUSB-2
+manufacturer: Autograph
+class: Computer changer
+picture: https://media.allaway.tech/blog/media/audio_diagrams/autograph/autograph_xusb-2.jpg
+description: The Autograph computer changer for running redundant systems.
+xml: <!-- Autograph XUSB-2 --> {"xml":"7ZrbctowEEC/xo9kZMk25pFLQmknDdNcpq8GFHArLGpEgL+vZMuAWdNJSuQOqZIh4+iysvawu9q1HdKdb/pptJjd8gllDrl2SDflXORX802XMuZgFE8c0nMwRvLj4JsTvW7WixZRShPxmgk4n/ASsRXNW/KGpdgy3TBN+Wqhh9FU0E1pqTFPEjoW0agYjuAtZEP1+n3K51SkWzlkm/f6V0HoEc8NwwCF8hfThuvlQtbxRMy0jELwjMbTmRbstXRjtNT3upO+37O80NuuVgGpUEHA5AqdUSqvpupqKKUgF7YXLZP4paS04NdKEexIbYlGxOJp4pC2HPFjtRTx8zafqcccy4LS5Q6yBeya/+OaUHL2bcSnpB2Zr7TeZELVdx3J7vUsFvR+EY1V71q6Hdk2E3NpGz1XXioDj8cRa+db7AmuBjzzRNxE85gpi/1E2QtVg3RHlzOeZksRlP2o9pixoj3hCd3dV4UDOXQUuNpR1OIGPOAG2ivBp8ozy+bvj/edBvSNb1LugseJyO7Q7zh+7wIUi99Brz7Q6xe6HfEonciZt3y1pOdptUIlMiaJKE5oqiWUFd+Rm+qiK1/93X0kjr8jop1Bj9FncSYNHQ+JD4MfqoDj+ufDCQCc/nCguAx6A4ulfExBAEtgiEoTUHnqq2jjti2TEpMAmoopJuEpJmdG3A/HJKzPTlo2tLyNjVtMqSO2uMgGl1eDIUFtVuO6J1wZtuHliIoPzcUYFViJ0VRsgDmiEtRoK7A49Ple7vinZVJm0iKAidcyxARm6llcsUAOgGAUAiDEFBCY4nd5suSSRFY0tWAOwZAmANM05b1ger8Hc2Yx6+OB8XF9YGCGvwdDLJgymKBGi4Fpfp6toMFXi6WMpQUf0hk7hsFMX2O5e3z4F0HGNcEmzZV2Fhw9wdMgipIyhr4tNMSqeGZwilXtcefSWFUcEIyxgqWAEqvaQ9Glsao4MxhjBQsEJVaeZfVnVhXHCGOsYNkgL+bkqGqvs10aqhZ8rmMMFawmHKKqvfh2Yai8ospfBypYZ/h2fXv3cG0ZlRn5R4wIrAWZSqAq3igY8rVUpE2eDpMnryIY+e+DRP67f3006yu9Xfob","w":120,"h":490,"aspect":"fixed","title":"Autograph XUSB-2"},
+---
