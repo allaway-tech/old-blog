@@ -24,8 +24,6 @@ picture: https://media.allaway.tech/blog/media/audio_diagrams/autograph/autograp
 
 ---
 ## All Autograph devices
-I'm not sure why this one isn't working properly. You need to remove the comma after the last line with {"xml" ... }. I am working on it to try and fix it.
-
 The copy button doesn't work you will need to highlight and copy.
   <div class="language-xml highlighter-rouge"><div class="code-header">
     <span data-label-text="XML"><i class="fas fa-code small"></i></span>
