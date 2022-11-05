@@ -1,6 +1,6 @@
 ---
 layout: default # You can ommit this if you've set it as a default
-title: Audio Diagrams
+title: Audio diagrams
 order: 1
 icon: fas fa-volume-up
 ---
