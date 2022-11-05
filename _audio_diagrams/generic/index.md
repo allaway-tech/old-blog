@@ -3,7 +3,7 @@ layout: default # You can ommit this if you've set it as a default
 title: Generic
 manufacturer: Generic
 class: Manufacturer
-picture: https://media.allaway.tech/blog/media/audio_diagrams/ # 200 x 110
+picture: https://media.allaway.tech/blog/media/audio_diagrams/generic/generic.png # 200 x 110
 ---
 
 <br />
