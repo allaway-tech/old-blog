@@ -3,6 +3,7 @@ layout: default # You can ommit this if you've set it as a default
 title: Audio Diagrams
 picture: https://media.allaway.tech/blog/media/audio_diagrams/apple/apple_logo.jpeg
 order: 1
+comments: true
 ---
 
 <br />
