@@ -1,6 +1,6 @@
 ---
 layout: audio_diagrams # You can ommit this if you've set it as a default
-title: QL1
+title: /:path/QL1
 manufacturer: Yamaha
 class: Audio console
 picture: https://media.allaway.tech/blog/media/audio_diagrams/yamaha/ql1.jpg # 200 x 110
