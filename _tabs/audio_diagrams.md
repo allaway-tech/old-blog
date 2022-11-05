@@ -2,7 +2,6 @@
 layout: default # You can ommit this if you've set it as a default
 title: Audio Diagrams
 picture: https://media.allaway.tech/blog/media/audio_diagrams/apple/apple_logo.jpeg
-description: The Apple mac mini
 order: 1
 ---
 
@@ -25,7 +24,7 @@ order: 1
     <span data-label-text="XML"><i class="fas fa-code small"></i></span>
   <button aria-label="copy" data-title-succeed="Copied!" data-original-title="" title=""><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"></td><td class="rouge-code">
     <pre>&lt;mxlibrary&gt;[
-{% assign sorted-diagrams = site.audio_diagrams %}{% for audio_diagram in sorted-diagrams %}{% if audio_diagram.class != "Manufacturer" %}{{ audio_diagram.xml }}{% unless forloop.last %},{% endunless -%}{% endif %}
-{% endfor %}
+{% assign sorted-diagrams = site.audio_diagrams %}{% for audio_diagram in sorted-diagrams %}{% if audio_diagram.class != "Manufacturer" %}{{ audio_diagram.xml }}{% unless forloop.last %},
+{% endunless -%}{% endif %}{% endfor %}
 ]&lt;/mxlibrary&gt;
 </pre></td></tr></tbody></table></code></div></div>
