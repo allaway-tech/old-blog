@@ -21,3 +21,14 @@ picture: https://media.allaway.tech/blog/media/audio_diagrams/apple/apple_logo.p
   <img src="{{ audio_diagram.picture }}" alt="Preview of {{ audio_diagram.title | downcase }} system block diagram">
   {% endif %}
 {% endfor %}
+
+---
+## All Apple devices
+  <div class="language-xml highlighter-rouge"><div class="code-header">
+    <span data-label-text="XML"><i class="fas fa-code small"></i></span>
+  <button aria-label="copy" data-title-succeed="Copied!" data-original-title="" title=""><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"></td><td class="rouge-code">
+    <pre>&lt;mxlibrary&gt;[
+{% assign sorted-diagrams = site.audio_diagrams | where: "manufacturer","Apple" %}{% for audio_diagram in sorted-diagrams %}{% if audio_diagram.class != "Manufacturer" %}{{ audio_diagram.xml }}{% unless forloop.last %},{% endunless -%}{% endif %}
+{% endfor %}
+]&lt;/mxlibrary&gt;
+</pre></td></tr></tbody></table></code></div></div>
