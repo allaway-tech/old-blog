@@ -18,7 +18,7 @@ If you find a problem with a shape or you would like an shape but don't fancy ma
 
 Another big reason for hosting this library on github is (as long as it doesn't grow too big) it is free.
 
-Here's how to use the [audio diagrams](/using_audio_diagrams).
+Here's how to use the [audio diagrams](https://blog.allaway.tech/audio_diagrams/using_audio_diagrams/).
 
 {% assign sorted-diagrams = site.audio_diagrams | where: "class","Manufacturer" %}
 {% for audio_diagram in sorted-diagrams %}
