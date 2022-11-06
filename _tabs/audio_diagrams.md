@@ -8,6 +8,18 @@ icon: fas fa-volume-up
 <br />
 <br />
 # Audio Diagrams
+Back in October 2022 I saw a post on [r/livesound](https://www.reddit.com/r/livesound) where someone was asking about audio shapes for [diagrams.net](https://diagrams.net) (formally draw.io). Unfortunately they didn't much help from the Reddit community but I thought as I was slogging my way through documenting a new rack anyway I'd take a look at making library that is publicly available. I have decided to host this on my blog rather than setup a new site for it but this may change in the future.
+
+There are a couple of reasons I have chosen to attach this to my blog.
+
+The first is github (whilst not 100% relevant to audio) has is extremely feature rich which collaboration tools. This means other people can contribute their audio shapes to the library as well. If you wish to contribute the [github](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) have a very good guide on how you can join in. I will in time also write a guide to how the shapes are formatted and a few "rules" on building them.
+
+If you find a problem with a shape or you would like an shape but don't fancy making it yourself then you can submit an [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) and I or someone else may pick up and make it for you. However, there are no employees here so everything is people giving their free time.
+
+Another big reason for hosting this library on github is (as long as it doesn't grow too big) it is free.
+
+Here's how to use the [audio diagrams](/using_audio_diagrams).
+
 {% assign sorted-diagrams = site.audio_diagrams | where: "class","Manufacturer" %}
 {% for audio_diagram in sorted-diagrams %}
   <hr />

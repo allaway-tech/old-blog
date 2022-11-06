@@ -1,5 +1,6 @@
 ---
 layout: audio_diagrams # You can ommit this if you've set it as a default
+comments: true
 title: ULXD4Q
 manufacturer: Shure 
 class: Radio receiver

@@ -1,6 +1,7 @@
 ---
 layout: audio_diagrams # You can ommit this if you've set it as a default
-title: Peaker
+comments: true
+title: Speaker
 manufacturer: Generic
 class: Speaker
 picture: https://media.allaway.tech/blog/media/audio_diagrams/generic/speaker.jpg # 200 x 110

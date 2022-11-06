@@ -1,5 +1,6 @@
 ---
 layout: audio_diagrams # You can ommit this if you've set it as a default
+comments: true
 title: Mini-YGDAI break in 16 -> 1
 manufacturer: Yamaha
 class: I/O card

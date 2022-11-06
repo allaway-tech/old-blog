@@ -2,9 +2,9 @@
 layout: default # You can ommit this if you've set it as a default
 title: Shure
 manufacturer: Shure
+comments: true
 class: Manufacturer
 picture: https://media.allaway.tech/blog/media/audio_diagrams/shure/shure_logo.png # 200 x 110
-
 ---
 
 <br />
@@ -34,3 +34,5 @@ The copy button doesn't work you will need to highlight and copy.
 {% endunless -%}{% endif %}{% endfor %}
 ]&lt;/mxlibrary&gt;
 </pre></td></tr></tbody></table></code></div></div>
+
+<div id="tail-wrapper"></div>
