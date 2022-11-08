@@ -1,7 +1,7 @@
 ---
 layout: audio_diagrams # You can ommit this if you've set it as a default
 comments: true
-title: QL1
+title: QL1 test
 manufacturer: Yamaha
 class: Audio console
 picture: https://media.allaway.tech/blog/media/audio_diagrams/yamaha/ql1.jpg # 200 x 110
