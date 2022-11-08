@@ -96,7 +96,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: harmanhobbit/harmanhobbit.github.io-comments            # <gh-username>/<repo>
+    repo: allaway-tech/allaway-tech.github.io-comments            # <gh-username>/<repo>
     repo_id: R_kgDOHfMmUA
     category: Comments
     category_id: DIC_kwDOHfMmUM4CPnSE
