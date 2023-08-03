@@ -6,6 +6,7 @@ categories: [Networking, DHCP] # Can be anything
 tags: [tp-link,deco,wi-fi,network,dhcp,pfsense,firewall] # Must be lowercase
 img_path: /media/posts/images/2023-08-05-tp-link-deco-dhcp
 ---
+
  # How to disable the DHCP server on a TP-link Deco mesh network   
 I recently moved house and, for the first time ever, was able to upgraded my broadband to fibre to the premises. This is great, and I now have a superfast internet connection. Only problem being that my old pfSense firewall/router cannot keep up with how fast it now needs to route the traffic.   
 When I did the original pfSense install, I got lucky with a USB 3 NIC that miraculously just worked first time with the intel atom based Dell Wyse nuc I had to hand. But after an unfortunate incident the NIC got damaged leading to me resorting to me moving to a VLAN based setup sharing the only onboard NIC. For the most part it ticked along fine but, now that I have a faster WAN connection, as soon as someone tries to use more bandwidth than the interface resets causing packets to drop. Interestingly nothing appears in the pfSense logs when this happens which has made it almost impossible to troubleshoot. An upgrade to pfSense+ has made it a little bit more reliable, but under high load the interface still is not up to it.   
