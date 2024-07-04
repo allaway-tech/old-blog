@@ -72,3 +72,10 @@ bogus-priv
 dhcp-range=192.168.123.2,192.168.123.2,255.255.255.252,120
 ```
 The only part that we are really interested in is the last line. This sets the start and end of the DHCP pool to 192.168.123.2 (we only want 1 address for the QLab mac). The subnet mask to 255.255.255.252 (a /32 network). And the lease time in seconds.
+
+A note on the lease time. As you can see from the code snippet this is set to 120s or 2 minutes. This unfortunately is the shortest duration that you can set. This does mean that you will need to wait for at least two minutes if you are trying to swap the playhead to another mac.
+
+For the most part this should be the majority of the setup we need to do on the pi. Next we look at attaching the display.
+
+### Attaching the display
+When I originally started this project I bought a 4 digit display from eBay. It worked great but I found out after jumping in that the cheaper displays only do either a : between the second and third digits or an . between every digit. Typically I got the former that I didn't want. However, it was very easy to swap out the 4 digit display for the 6 digit version. I picked a blue display as the seller I purchased from had them in stock and I was impatient and didn't want to wait. There's very little to these displays so as long as they have the TM3716 chip you should be good to go.
