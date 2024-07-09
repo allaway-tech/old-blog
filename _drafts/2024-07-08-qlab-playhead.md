@@ -102,7 +102,7 @@ The pinout required to hook the display up is as follows:
   | 1 | 1 | Voltage |
   | 2 | 2 | Ground |
   | 3 | 3 | Clock |
-  | 4 | 4 | Data |
+  | 4 | 4 | Data  |
 
 
   #TODO: add picture of display attached to pi
