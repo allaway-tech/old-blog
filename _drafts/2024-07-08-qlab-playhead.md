@@ -97,12 +97,13 @@ I decided that, for me, the best way to attach the display to the pi was to sold
 
 The pinout required to hook the display up is as follows:
   |    |             |         |
-  -----------
+  ---
   | pi pin | display | purpose |
   | 1 | 1 | Voltage |
   | 2 | 2 | Ground |
   | 3 | 3 | Clock |
   | 4 | 4 | Data |
+  ---
 
   #TODO: add picture of display attached to pi
 
