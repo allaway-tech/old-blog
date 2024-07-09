@@ -78,4 +78,6 @@ A note on the lease time. As you can see from the code snippet this is set to 12
 For the most part this should be the majority of the setup we need to do on the pi. Next we look at attaching the display.
 
 ### Attaching the display
-When I originally started this project I bought a 4 digit display from eBay. It worked great but I found out after jumping in that the cheaper displays only do either a : between the second and third digits or an . between every digit. Typically I got the former that I didn't want. However, it was very easy to swap out the 4 digit display for the 6 digit version. I picked a blue display as the seller I purchased from had them in stock and I was impatient and didn't want to wait. There's very little to these displays so as long as they have the TM3716 chip you should be good to go.
+When I originally started this project I bought a 4 digit display from eBay. It worked great but I found out after jumping in that the cheaper displays only do either a : between the second and third digits or an . between every digit. Typically I got the former that I didn't want. However, it was very easy to swap out the 4 digit display for the 6 digit version. I picked a blue display as the seller I purchased from had them in stock and I was impatient and didn't want to wait. There's very little to these displays so as long as they have the TM1637 chip you should be good to go.
+
+I decided that
