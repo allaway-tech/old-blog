@@ -96,13 +96,20 @@ When I originally started this project I bought a 4 digit display from eBay. It 
 I decided that, for me, the best way to attach the display to the pi was to solder it directly on to the board. This may not be suitable for you but, even though I had purchased the pi for another project, I decided that I was going to commit this pi to this project. I also have easy access to the tools I need to remove the display if I ever decided I wanted to use the display for another project. There are other methods of attaching the display. If you already have headers installed on you pi then you could use dupoint cables to hook it up (the display I ordered came with headers in the box albeit not actually attached).
 
 The pinout required to hook the display up is as follows:
+<<<<<<< HEAD
 
+=======
+>>>>>>> a9c1bd92bdc74c52a7f962252b9f97c3c1b57e47
   | pi pin | display | purpose |
   ---
   | 1 | 1 | Voltage |
   | 2 | 2 | Ground |
   | 3 | 3 | Clock |
+<<<<<<< HEAD
   | 4 | 4 | Data  |
+=======
+  | 4 | 4 | Data |
+>>>>>>> a9c1bd92bdc74c52a7f962252b9f97c3c1b57e47
 
 
   #TODO: add picture of display attached to pi
