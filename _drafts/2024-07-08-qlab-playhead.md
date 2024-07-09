@@ -26,7 +26,7 @@ Unlike other Raspberry Pis (when I started thinking about this) the Pi Zero can 
 This is the list that I decided to work from when starting the project:
   - Must be plug and play
   - Must create a point to point network
-  - Use and 8 segment type display to show the selected cue number
+  - Use and 7 segment type display to show the selected cue number
   - Must use a single USB cable in direct mode
   - Must have an adjustable refresh rate
   - Have controllable brightness
@@ -99,10 +99,10 @@ The pinout required to hook the display up is as follows:
 
   | pi pin | display | purpose |
   | --- | --- | --- |
-  | 1 | 1 | Voltage |
-  | 2 | 2 | Ground |
-  | 3 | 3 | Clock |
-  | 4 | 4 | Data   |
+  | GPIO5 | CLK | Clock |
+  | GPIO3 | DIO | Data |
+  | 3.3V (or 5V) | VCC | Power |
+  | GBD | GBD | Ground |
 
 
   #TODO: add picture of display attached to pi
