@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Raspberry Pi Zero QLab playhead
-date: 2024-07-08
 categories: [QLab, Raspberry Pi] # Can be anything
 tags: [qlab,raspberrypi,usbgadet,dhcp,python,osc] # Must be lowercase
 img_path: /media/posts/images/2024-07-08-qlab-playhead
 ---
+
+date: 2024-07-08
 
 # A Raspberry Pi Zero play head for QLab
 This is a little project that I have had on the back burner for a little while. I recently had a little more time in my schedule and managed to get to a working state.
