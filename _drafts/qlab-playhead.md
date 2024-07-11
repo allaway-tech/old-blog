@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Raspberry Pi Zero QLab playhead
+date: 2024-07-08
 categories: [QLab, Raspberry Pi] # Can be anything
 tags: [qlab,raspberrypi,usbgadet,dhcp,python,osc] # Must be lowercase
 img_path: /media/posts/images/2024-07-08-qlab-playhead
 ---
-
-date: 2024-07-08
 
 # A Raspberry Pi Zero play head for QLab
 This is a little project that I have had on the back burner for a little while. I recently had a little more time in my schedule and managed to get to a working state.
@@ -55,8 +54,10 @@ The only things I would note is that configuring your Pi with the correct Wi-Fi 
 ### Gadget mode
 After that we need to get the Pi into gadget mode. Again for my sanity I'm going to suggest following the [second](https://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/) of the two install tutorials above. Once you have successfully gotten the Pi into gadget mode we will give the USB interface a static IP address.
 
-Edit the file `/etc/network/interfaces` in your favourite text editor and add the following to the bottom of your file:
-``` allow-hotplug usb0
+Edit the file `/etc/network/interfaces`{: .filepath} in your favourite text editor and add the following to the bottom of your file:
+
+```bash
+allow-hotplug usb0
 iface usb0 inet static
         address 192.168.123.1
         netmask 255.255.255.252
@@ -64,9 +65,12 @@ iface usb0 inet static
         broadcast 192.168.123.3
         gateway 0.0.0.0
 ```
+{: file='/etc/network/interface'}
 
 The entire file will now probably look something like this:
-``` # interfaces(5) file used by ifup(8) and ifdown(8)
+
+```bash
+# interfaces(5) file used by ifup(8) and ifdown(8)
 # Include files from /etc/network/interfaces.d:
 source /etc/network/interfaces.d/*
 
@@ -78,15 +82,21 @@ iface usb0 inet static
         broadcast 192.168.123.3
         gateway 0.0.0.0
 ```
+{: file='/etc/network/interface'}
+
 This bit of configuration tells the interface to wait until it has detected that it has been plugged in and sets an IP address of 192.168.123.1/32 (a /32 network only has 2 assignable IP addresses in it. 1 for the Pi and 1 for the QLab mac). This IP address could be anything that takes your fancy. I have made an assumption that your USB gadget has been assigned on USB0 and will continue to make this assumption as if you have managed to get it to something else you probably know how to make sure it works.
 
-Next we move on to configuring the DHCP server. Check that it is installed by running `sudo apt install dnsmasq`. Now in your favourite text editor open `/etc/dnsmasq.conf` and add the following lines at the bottom of your file:
-``` interface=usb0
+Next we move on to configuring the DHCP server. Check that it is installed by running `sudo apt install dnsmasq`. Now in your favourite text editor open `/etc/dnsmasq.conf`{: .filepath} and add the following lines at the bottom of your file:
+
+
+```bash
+interface=usb0
 bind-dynamic
 domain-needed
 bogus-priv
 dhcp-range=192.168.123.2,192.168.123.2,255.255.255.252,120
 ```
+{: file='/etc/dnsmasq.conf'}
 The only part that we are really interested in is the last line. This sets the start and end of the DHCP pool to 192.168.123.2 (we only want 1 address for the QLab mac). The subnet mask to 255.255.255.252 (a /32 network). And the lease time in seconds.
 
 A note on the lease time. As you can see from the code snippet this is set to 120s or 2 minutes. This unfortunately is the shortest duration that you can set. This does mean that you will need to wait for at least two minutes if you are trying to swap the playhead to another mac.
@@ -101,16 +111,19 @@ I decided that, for me, the best way to attach the display to the pi was to sold
 The pinout required to hook the display up is as follows:
 
   | pi pin | display | purpose |
-  | --- | --- | --- |
+  | :--- | :--- | :--- |
   | GPIO5 | CLK | Clock |
   | GPIO3 | DIO | Data |
   | 3.3V (or 5V) | VCC | Power |
   | GND | GND | Ground |
 
- >Note that you will need to pick a voltage that matches what your display requires {: .prompt-warning }
+ > Note that you will need to pick a voltage that matches what your display requires
+ {: .prompt-warning }
 
 
   #TODO: add picture of display attached to pi
+
+![A TM1637 display connected to a Rapberry Pi Zero](pi-with-screen.png)
 
 This is nice and simple and should take someone who is electronically minded about 5 minutes to do. (I managed to do it twice very quickly when I swapped from the 4 to 6 digit display).
 
