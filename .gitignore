@@ -7,7 +7,7 @@
 !.husky
 !.commitlintrc.json
 !.versionrc.json
-
+!.stylelintrc.json
 # bundler cache
 _site
 vendor
@@ -18,5 +18,4 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
-
 Gemfile.lock
