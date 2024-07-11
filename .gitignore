@@ -33,3 +33,5 @@ Gemfile.lock
 
 # Misc
 assets/js/dist
+
+.jekyll-metadata
